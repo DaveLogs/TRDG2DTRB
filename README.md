@@ -17,8 +17,8 @@ Convert TextRecognitionDataGenerator's output data to Deep-Text-Recognition-Benc
 
 ```python
 (venv) $ python3 convert.py \
-		--input_path ./input \
-  		--output_path ./output
+	--input_path ./input \
+  	--output_path ./output
 ```
 
 
