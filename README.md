@@ -8,12 +8,12 @@ Convert TextRecognitionDataGenerator's result data to Deep-Text-Recognition-Benc
 
 ## Reference projects
 
-- TextRecognitionDataGenerator: https://github.com/Belval/TextRecognitionDataGenerator
-- deep-text-recognition-benchmark: https://github.com/clovaai/deep-text-recognition-benchmark
+- [TextRecognitionDataGenerator](https://github.com/Belval/TextRecognitionDataGenerator): A synthetic data generator for text recognition.
+- [deep-text-recognition-benchmark](https://github.com/clovaai/deep-text-recognition-benchmark): Text recognition (optical character recognition) with deep learning methods.
 
 
 
-## Example usage
+## Usage example
 
 ```python
 (venv) $ python3 convert.py \
