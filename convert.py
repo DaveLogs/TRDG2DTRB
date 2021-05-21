@@ -1,6 +1,6 @@
 """
 
-Convert TextRecognitionDataGenerator's output data to Deep-Text-Recognition-Benchmark's input data.
+Convert TextRecognitionDataGenerator's result data to Deep-Text-Recognition-Benchmark's input data.
 
 ## Reference projects
 1. TextRecognitionDataGenerator:
