@@ -17,8 +17,8 @@ Convert TextRecognitionDataGenerator's output data to Deep-Text-Recognition-Benc
 
 ```python
 (venv) $ python3 convert.py \
-								--input_path ./input \
-  							--output_path ./output
+		--input_path ./input \
+  		--output_path ./output
 ```
 
 
@@ -31,7 +31,7 @@ The structure of data folder as below.
 
 ```
 /input
-#		[gt]_[idx].[ext]
+#   [gt]_[idx].[ext]
 ├── abcd_00001.jpg
 ├── efgh_00002.jpg
 ├── ijkl_00003.jpg
@@ -46,7 +46,7 @@ The structure of data folder as below.
 /output
 ├── gt.txt
 └── /images
-		#		image_[idx].[ext]
+    #  	image_[idx].[ext]
     ├── image_00001.png
     ├── image_00001.png
     ├── image_00001.png
@@ -60,10 +60,10 @@ The structure of data folder as below.
 * gt.txt
 
 ```
-#	{filename}\t{label}\n
-	images/image_00001.png	abcd
-	images/image_00002.png	efgh
-	images/image_00003.png	ijkl
-	...
+# {filename}\t{label}\n
+  images/image_00001.png	abcd
+  images/image_00002.png	efgh
+  images/image_00003.png	ijkl
+  ...
 ```
 
