@@ -100,19 +100,21 @@ def get_files(path):
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='Convert TextRecognitionDataGenerator to Deep-Text-Recognition-Benchmark')
+    parser = argparse.ArgumentParser(description='Convert dataset for deep-text-recognition-benchmark')
 
-    parser.add_argument('--input_path', dest='input_path', help='TextRecognitionDataGenerator data path')
-    parser.add_argument('--output_path', dest='output_path', help='Output path')
+    parser.add_argument('--input_path', dest='input_path',
+                        help='Data path of TextRecognitionDataGenerator project result')
+    parser.add_argument('--output_path', dest='output_path',
+                        help='Data path for use in deep-text-recognition-benchmark project')
 
     parsed_args = parser.parse_args()
     return parsed_args
 
 
 if __name__ == '__main__':
-    # args = parse_arguments()
-    # run(input_path=args.input_path, output_path=args.output_path)
+    args = parse_arguments()
+    run(input_path=args.input_path, output_path=args.output_path)
 
-    # for test
-    run(input_path='./input', output_path='./output')
+    # # for test
+    # run(input_path='./input', output_path='./output')
 
