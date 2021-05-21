@@ -17,24 +17,24 @@ Convert TextRecognitionDataGenerator's result data to Deep-Text-Recognition-Benc
     ./input
     # result of TextRecognitionDataGenerator project.
     #   [gt]_[idx].[ext]
-        a_001.jpg
-        b_002.jpg
+        abcd_00001.jpg
+        efgh_00002.jpg
         ...
 
     ./output
     # for use in deep-text-recognition-benchmark project.
         /images
         #   image_[idx].[ext] - for Deep-Text-Recognition-Benchmark
-            image_001.jpg
-            image_002.jpg
+            image_00001.jpg
+            image_00002.jpg
             ...
         gt.txt
 
 ## Ground truth file structure:
 #   gt.txt
 #   {filename}\t{label}\n
-    images/image_001.jpg    a
-    images/image_002.jpg    b
+    images/image_00001.jpg    abcd
+    images/image_00002.jpg    efgh
     ...
 
 """
