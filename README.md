@@ -48,8 +48,8 @@ The structure of data folder as below.
 └── /images
     #  	image_[idx].[ext]
     ├── image_00001.png
-    ├── image_00001.png
-    ├── image_00001.png
+    ├── image_00002.png
+    ├── image_00003.png
     └── ...
 ```
 
